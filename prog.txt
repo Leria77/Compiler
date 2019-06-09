@@ -1,3 +1,5 @@
-var i = "l";
-5749
-for
+const i = 123;
+var j = 321;
+var sum  = i + j;
+var lala = "lalalalal";
+alert(lala);
