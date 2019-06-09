@@ -14,6 +14,7 @@ public class Lexer {
     public String tokens(){
         buf =  new String(buff);
         if (buf.trim().equals("var")) return "var";
+        if (buf.trim().equals("alert")) return "alert";
         if (buf.trim().equals("function")) return "function";
         if (buf.trim().equals("for")) return "for";
         if (buf.trim().equals("case")) return "case";
